@@ -126,7 +126,7 @@
             <img src="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png" alt="Insight Ed Logo">
         </div>
         <div class="welcome-text" id="welcome-text">Welcome to Insight Ed</div>
-        <div class="subtext">Your trusted ERP solution for schools</div>
+        <div class="subtext">Smart ERP for Smart Schools</div>
         <div class="cta-buttons">
             @if (Route::has('login'))
                 @auth
