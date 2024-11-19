@@ -7,14 +7,14 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Unifiedtransform') }}</title>
+    <title>Insight Ed</title>
 
-    <link rel="shortcut icon" href="{{asset('favicon_io/favicon.ico')}}">
-    <link rel="shortcut icon" sizes="16x16" href="{{asset('favicon_io/favicon-16x16.png')}}">
-    <link rel="shortcut icon" sizes="32x32" href="{{asset('favicon_io/favicon-32x32.png')}}">
-    <link rel="apple-touch-icon" href="{{asset('favicon_io/apple-touch-icon.png')}}">
-    <link rel="icon" href="{{asset('favicon_io/android-chrome-192x192.png')}}" sizes="192x192">
-    <link rel="icon" href="{{asset('favicon_io/android-chrome-512x512.png')}}" sizes="512x512">
+    <link rel="shortcut icon" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png">
+    <link rel="shortcut icon" sizes="16x16" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png">
+    <link rel="shortcut icon" sizes="32x32" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png">
+    <link rel="apple-touch-icon" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png">
+    <link rel="icon" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png" sizes="192x192">
+    <link rel="icon" href="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png" sizes="512x512">
 
     <!-- Scripts -->
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
@@ -32,9 +32,13 @@
     <div id="app">
         <nav class="navbar sticky-top navbar-expand-md navbar-light bg-white border-btm-e6">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <i class="bi bi-house"></i> {{ config('app.name', 'Laravel') }}
-                </a>
+            <a class="navbar-brand" href="{{ url('/') }}" style="display: flex; align-items: center; text-decoration: none; color: #333; font-weight: bold; font-size: 1.2rem;">
+                    <img 
+                        src="https://insight-ed.in/assets/logo%201200x1200-C15vqz6H.png" 
+                        alt="Insight Ed Logo" 
+                        style="width: 40px; height: 40px; margin-right: 10px; border-radius: 50%; object-fit: cover;">
+                        <span style="font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px;">Insight Ed</span>
+                    </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -103,7 +107,7 @@
     </div>
 
     <div id="watermark">
-        <p>Unifiedtransform</p>
+        <p>Insight Ed</p>
     </div>
 </body>
 </html>
